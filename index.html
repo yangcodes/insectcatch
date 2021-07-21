@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Catch Insect Game</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch The Insect</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>What's your pick?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Fly</p>
+            <img
+              src=" https://www.pngkey.com/png/full/297-2972320_gray-fly-clip-art-image-gray-cartoon-fly.png"
+              alt="Fly "
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Mosquito</p>
+            <img
+              src="https://media.istockphoto.com/vectors/insect-mosquito-flies-and-smiles-on-a-white-character-vector-id1220797218?k=6&m=1220797218&s=612x612&w=0&h=aASm4QcTBv6iInKCQZ_MTbjg2oEolokC024XvycFb-8="
+              alt="mosquito"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Spider</p>
+            <img
+              src="https://www.seekpng.com/png/detail/183-1837355_spider-clipart-black-and-white-incy-wincy-spider.png"
+              alt="spider"
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Roach</p>
+            <img
+              src="https://i.pinimg.com/originals/93/ac/12/93ac123a71dc1670e0c5a87d8c5a9994.jpg"
+              alt="roach"
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container">
+      <h3 id="time">Time: 00:00</h3>
+      <h3 id="score">Score: 0</h3>
+      <h5 id="message">
+        Are you annoyed yet? <br />
+        You are playing an impossible game!
+      </h5>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
